@@ -1,5 +1,4 @@
 from reports import *
-# Printing functions
 
 
 def printer_function(function_name, parameter=None, file_name="game_stat.txt"):
@@ -22,6 +21,9 @@ def main():
     printer_function(get_latest)
     printer_function(decide, 1998)
     printer_function(count_by_genre, "RPG")
+    printer_function(sorted)
+    printer_function(get_genres)
+    printer_function(when_was_top_sold_fps)
 
 
 if __name__ == '__main__':
